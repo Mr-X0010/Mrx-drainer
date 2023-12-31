@@ -1,0 +1,103 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "generate": {
+      "name": "generate",
+      "command": "yarn generate",
+      "runAtStart": false
+    },
+    "rarity": {
+      "name": "rarity",
+      "command": "yarn rarity",
+      "runAtStart": false
+    },
+    "rarity_md": {
+      "name": "rarity_md",
+      "command": "yarn rarity_md",
+      "runAtStart": false
+    },
+    "rarity_rank": {
+      "name": "rarity_rank",
+      "command": "yarn rarity_rank",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "yarn preview",
+      "runAtStart": false
+    },
+    "pixelate": {
+      "name": "pixelate",
+      "command": "yarn pixelate",
+      "runAtStart": false
+    },
+    "update_info": {
+      "name": "update_info",
+      "command": "yarn update_info",
+      "runAtStart": false
+    },
+    "preview_gif": {
+      "name": "preview_gif",
+      "command": "yarn preview_gif",
+      "runAtStart": false
+    },
+    "create_generic": {
+      "name": "create_generic",
+      "command": "yarn create_generic",
+      "runAtStart": false
+    },
+    "upload_files": {
+      "name": "upload_files",
+      "command": "yarn upload_files",
+      "runAtStart": false
+    },
+    "upload_metadata": {
+      "name": "upload_metadata",
+      "command": "yarn upload_metadata",
+      "runAtStart": false
+    },
+    "deploy_contract": {
+      "name": "deploy_contract",
+      "command": "yarn deploy_contract",
+      "runAtStart": false
+    },
+    "get_contract": {
+      "name": "get_contract",
+      "command": "yarn get_contract",
+      "runAtStart": false
+    },
+    "mint": {
+      "name": "mint",
+      "command": "yarn mint",
+      "runAtStart": false
+    },
+    "reveal": {
+      "name": "reveal",
+      "command": "yarn reveal",
+      "runAtStart": false
+    },
+    "check_txns": {
+      "name": "check_txns",
+      "command": "yarn check_txns",
+      "runAtStart": false
+    },
+    "refresh_os": {
+      "name": "refresh_os",
+      "command": "yarn refresh_os",
+      "runAtStart": false
+    }
+  }
+}
